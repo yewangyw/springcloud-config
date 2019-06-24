@@ -6,7 +6,7 @@ spring:
 server:
   port: 8001
 mybatis:
-  type-aliases-package: com.hzit.bean
+  type-aliases-package: com.hzit.api.entity
   mapper-locations:
   - classpath:mybatis/mapper/**/*.xml
 spring:
@@ -43,7 +43,7 @@ info:                              #点击别名  访问info信息
 server:
   port: 8002
 mybatis:
-  type-aliases-package: com.hzit.bean
+  type-aliases-package: com.hzit.api.entity
   mapper-locations:
   - classpath:mybatis/mapper/**/*.xml
 spring:
